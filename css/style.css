@@ -38,3 +38,26 @@ input[type="submit"] {
   padding: 10px;
   width: 100%;
 }
+
+/* added */
+/* Radio button layout */
+
+.radio-group {
+  margin-bottom: 20px;
+}
+
+.radio-group legend {
+  margin-bottom: 12px;
+}
+
+.radio-option {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.radio-option label {
+  display: inline;
+  margin-bottom: 0;
+}
